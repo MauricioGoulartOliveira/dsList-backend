@@ -31,16 +31,26 @@ A **DSList** é uma aplicação que permite aos usuários pesquisar informaçõe
 3.Acesse a API no endereço:
 http://localhost:8080
 
-📌 Rotas da API
+## 📌 Rotas da API
 
-🎮 Jogos
-GET /games: Retorna a lista completa de jogos.
-GET /games/{id}: Retorna os detalhes de um jogo específico pelo ID.
-📋 Listas de Jogos
-GET /lists: Retorna as categorias das listas de jogos.
-GET /lists/{id}/games: Retorna os jogos categorizados pelo ID da lista.
-🔄 Organização Personalizada
-POST /lists/{listId}/replacement: Permite reorganizar os jogos na lista com base na opinião do usuário.
+### 🎮 Jogos
+- **GET `/games`**  
+  Retorna a lista completa de jogos.
+
+- **GET `/games/{id}`**  
+  Retorna os detalhes de um jogo específico pelo ID.
+
+### 📋 Listas de Jogos
+- **GET `/lists`**  
+  Retorna as categorias das listas de jogos.
+
+- **GET `/lists/{id}/games`**  
+  Retorna os jogos categorizados pelo ID da lista.
+
+### 🔄 Organização Personalizada
+- **POST `/lists/{listId}/replacement`**  
+  Permite reorganizar os jogos na lista com base na opinião do usuário.
+
 
 📊 Diagrama de Arquitetura
 O diagrama a seguir foi utilizado como base para a construção da API:
