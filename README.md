@@ -1,40 +1,4 @@
-# DSList
 
-A **DSList** é uma aplicação que permite aos usuários pesquisar informações sobre diferentes jogos, visualizar listas categorizadas e classificar os jogos com base em suas opiniões. 
-
-## 🚀 Funcionalidades
-
-- **Pesquisa de Jogos**: Encontre informações detalhadas sobre diversos títulos.
-- **Listas de Jogos**: Navegue por categorias específicas.
-- **Classificação Personalizada**: Organize os jogos de acordo com sua preferência.
-
----
-
-## ⚙️ Configurações
-
-### 📋 Requisitos
-
-- **Java 17**
-- **Maven**
-- **PostgreSQL**
-
-### 📂 Como rodar o projeto
-
-1. Clone o repositório:
-   ```bash
-   git clone git@github.com:MauricioGoulartOliveira/dsList-backend.git && cd dslist
-   
-2.Execute a aplicação:
-./mvnw spring-boot:run
-
-3.Acesse a API no endereço:
-http://localhost:8080
-
-
-Aqui está o README formatado para que você possa copiá-lo e colá-lo diretamente no GitHub:
-
-markdown
-Copiar código
 # DSList
 
 A **DSList** é uma aplicação que permite aos usuários pesquisar informações sobre diferentes jogos, visualizar listas categorizadas e classificar os jogos com base em suas opiniões. 
